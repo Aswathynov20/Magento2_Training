@@ -1,0 +1,9 @@
+<!-- File: app/design/frontend/{Vendor}/{new-theme}/theme.xml -->
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>Your New Theme</title>
+    <parent>Magento</parent>
+    <media>
+        <preview_image>media/download.jpeg</preview_image>
+        <h1>Hello world</h1>
+    </media>
+</theme>

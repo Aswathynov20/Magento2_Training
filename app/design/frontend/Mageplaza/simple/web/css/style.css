@@ -1,0 +1,8 @@
+/* File: app/design/frontend/{Vendor}/{new-theme}/web/css/styles.css */
+
+body {
+    background-color: #f4f4f4; /* Your desired background color */
+    color: #333; /* Your desired font color */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Your desired font family */
+    /* Add other styles as needed */
+}
