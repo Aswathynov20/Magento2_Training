@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+
+    <table name="logdb_log404" comment="Log 404 Page">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false" identity="true" comment="ID"/>
+        <column xsi:type="varchar" name="url" nullable="false" comment="URL"/>
+        <column xsi:type="int" name="count" nullable="false" default="1" comment="Count"/>
+        <!-- <column xsi:type="timestamp" name="time_occurred" on_update="true" default="CURRENT_TIMESTAMP" comment="Time of event"/> -->
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+
+</schema>
