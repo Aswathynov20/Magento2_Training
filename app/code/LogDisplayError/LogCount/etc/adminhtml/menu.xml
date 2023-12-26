@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+        <add id="LogDisplayError_LogCount::countlog" title="URl Listing" module="LogDisplayError_LogCount" sortOrder="51" resource="LogDisplayError_LogCount::countlog" />
+        <add id="LogDisplayError_LogCount::post" title="Display Log URl" module="LogDisplayError_LogCount" sortOrder="10" action="countlog/index" resource="LogDisplayError_LogCount::countlog" parent="LogDisplayError_LogCount::countlog" action="dev_grid/index/index"/>
+    </menu>
+</config>

@@ -5,7 +5,6 @@ namespace Eglobe\OrderNotes\Plugin\Magento\Sales\Api;
 class OrderRepositoryInterface
 {
 
-
     /**
      * @var \Magento\Sales\Api\Data\OrderExtensionFactory
      */

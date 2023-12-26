@@ -4,7 +4,7 @@
         <eglobe>
             <general>
                 <enable>1</enable>
-                <custom_label>Order Comments</custom_label>
+                <custom_label>Order Comments (optional)</custom_label>
             </general>
         </eglobe>
     </default>
