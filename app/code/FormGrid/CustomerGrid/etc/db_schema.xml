@@ -1,0 +1,12 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+<table name="formgrid_customergrid" comment="formgrid_customergrid">
+<column xsi:type="int" name="id" unsigned="true" nullable="false" identity="true" comment="ID"/>
+<column xsi:type="varchar" name="name" length="255" nullable="false" comment="Name"/>
+<column xsi:type="varchar" name="email" length="255" nullable="false" comment="email"/>
+<!--  <column xsi:type="varchar" name="profileimage" nullable="false"  comment="profileimage"/>  -->
+<column xsi:type="timestamp" name="time_occurred" on_update="true" default="CURRENT_TIMESTAMP" comment="Time of event"/>
+<constraint xsi:type="primary" referenceId="PRIMARY">
+<column name="id"/>
+</constraint>
+</table>
+</schema>

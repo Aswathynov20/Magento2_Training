@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+<menu>
+<add id="FormGrid_CustomerGrid::gridmanager" title="Thecoachsmb" module="FormGrid_CustomerGrid" sortOrder="10" resource="FormGrid_CustomerGrid::gridmanager"/>
+<add id="FormGrid_CustomerGrid::create" title="Grid Manager" module="FormGrid_CustomerGrid" sortOrder="20" parent="FormGrid_CustomerGrid::gridmanager" action="formgrid/grid/index" resource="FormGrid_CustomerGrid::create"/>
+</menu>
+</config>

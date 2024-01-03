@@ -5,7 +5,8 @@
  * See COPYING.txt for license details.
  */
 
-if (PHP_SAPI !== 'cli') {
+
+ if (PHP_SAPI !== 'cli') {
     echo 'bin/magento must be run as a CLI application';
     exit(1);
 }

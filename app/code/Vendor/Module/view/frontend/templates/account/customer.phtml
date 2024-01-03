@@ -1,0 +1,9 @@
+<div class="block block-dashboard-info">
+    <div class="block-title"><strong><?= $block->escapeHtml(__('Account Information')) ?></strong></div>
+    <div class="block-content">
+        <p>
+            <?= $block->escapeHtml(__('Hello, %1!', $block->getCustomer()->getEmail())) ?><br>
+            <?= $block->escapeHtml(__('From your account dashboard, you can view your <a href="%1">recent orders</a>, manage your <a href="%2">shipping and billing addresses</a>, and <a href="%3">edit your password and account details</a>.', $block->getUrl('sales/order/history'), $block->getUrl('customer/address'), $block->getUrl('customer/account/edit'))) ?>
+        </p>
+    </div>
+</div>

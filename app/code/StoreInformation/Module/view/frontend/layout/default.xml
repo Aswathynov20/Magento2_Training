@@ -1,8 +1,0 @@
-<!-- File: app/design/frontend/{Vendor}/{custom-theme}/Magento_Theme/layout/default.xml -->
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <body>
-        <!-- Remove the welcome message block from the header -->
-        <referenceBlock name="header" remove="true" />
-    </body>
-</page>
-    
